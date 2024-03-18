@@ -1,5 +1,5 @@
 /* 
-Day 1.1
+Day 1.2 - Multiply (8 kyu)
 https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript
 */
 
