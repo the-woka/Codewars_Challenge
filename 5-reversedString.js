@@ -19,4 +19,4 @@ https://www.codewars.com/kata/5168bb5dfe9a00b126000018/train/javascript
 
 // Other's Answer
 
-const solution = s => [...s].reverse().join('')
+const solution = (s) => [...s].reverse().join("");
