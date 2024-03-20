@@ -22,8 +22,16 @@ https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
 //   return sheep.reduce((acc, curr) => (curr ? acc + 1 : acc), 0);
 // }
 
-const countSheeps = (sheep) =>
-  sheep.reduce((acc, curr) => (curr ? acc + 1 : acc), 0);
+// const countSheeps = (sheep) =>
+//   sheep.reduce((acc, curr) => (curr ? acc + 1 : acc), 0);
+
+// Other's Answers
+
+// function countSheeps(arr) {
+//   return arr.filter(Boolean).length;
+// }
+
+const countSheeps = (x) => x.filter((s) => s).length;
 
 console.log(
   countSheeps([
