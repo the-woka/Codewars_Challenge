@@ -1,5 +1,5 @@
 /*
-Day 2.5 - Couting Sheep... (8 kyu)
+Day 2.5 - Counting Sheep... (8 kyu)
 https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
 */
 
