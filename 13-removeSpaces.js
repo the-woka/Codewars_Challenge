@@ -1,5 +1,5 @@
 /*
-Day 2.2 - Remove String Spaces (8 kyu)
+Day 2.3 - Remove String Spaces (8 kyu)
 https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/javascript
 */
 

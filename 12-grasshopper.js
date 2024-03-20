@@ -1,5 +1,5 @@
 /* 
-Day 2.1 - Grasshopper - Summation (8 kyu)
+Day 2.2 - Grasshopper - Summation (8 kyu)
 https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/javascript
 */
 
