@@ -29,16 +29,26 @@ https://www.codewars.com/kata/54ff3102c1bad923760001f3/train/javascript
 //     );
 // }
 
-const getCount = (str) =>
-  str
-    .split("")
-    .reduce(
-      (acc, curr) =>
-        acc +
-        (curr == "a" || curr == "i" || curr == "u" || curr == "e" || curr == "o"
-          ? 1
-          : 0),
-      0
-    );
+// const getCount = (str) =>
+//   str
+//     .split("")
+//     .reduce(
+//       (acc, curr) =>
+//         acc +
+//         (curr == "a" || curr == "i" || curr == "u" || curr == "e" || curr == "o"
+//           ? 1
+//           : 0),
+//       0
+//     );
+
+// function getCount(str) {
+//   return (str.match(/[aeiou]/gi) || []).length;
+// }
+
+// Other's Answers
+
+function getCount(str) {
+  return str.split("").filter((c) => "aeiouAEIOU".includes(c)).length;
+}
 
 console.log(getCount("abracadabra"));
